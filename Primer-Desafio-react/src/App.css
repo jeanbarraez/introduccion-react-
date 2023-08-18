@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+ 
+  font-family: "Times New Roman", Times, serif;
+}
+/*path:src/app.js*/
+
+.contenedor-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+ 
+}
