@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 import "../hojas-de-estilos/Adoptar.css";
 
-const Footer = ({texto}) => {
+const Footer = ({ texto }) => {
   return (
     <>
-
-    <h5><strong>{texto}</strong></h5>
-    
+      <h5>
+        <strong>{texto}</strong>
+      </h5>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

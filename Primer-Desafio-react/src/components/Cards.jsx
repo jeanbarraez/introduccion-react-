@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Tags from "./Tags";
 import "../hojas-de-estilos/Adoptar.css";
 
-const Cards = ({ nombre, imagen, descripcion, colorButton, textButton }) => {
+const Cards = ({ nombre, imagen, descripcion, colorButton, raza }) => {
   return (
     <>
       <Card style={{ width: "18rem" }} className="cartas">
@@ -14,7 +14,7 @@ const Cards = ({ nombre, imagen, descripcion, colorButton, textButton }) => {
               <strong>{nombre}</strong>
             </Card.Title>
             <Card.Text className="descripcion">{descripcion}</Card.Text>
-            <Tags colorButton={colorButton} textButton={textButton} />
+            <Tags colorButton={colorButton} raza={raza} />
           </Card.Body>
         </div>
       </Card>

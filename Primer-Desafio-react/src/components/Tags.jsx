@@ -1,9 +1,9 @@
 import Button from "react-bootstrap/Button";
 
-const Tags = ({colorButton, textButton}) => {
+const Tags = ({colorButton, raza}) => {
   return (
     <>
-      <Button variant={colorButton}>{textButton}</Button>
+      <Button variant={colorButton}>{raza}</Button>
     </>
   );
 };
