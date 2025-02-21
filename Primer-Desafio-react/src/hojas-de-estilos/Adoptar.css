@@ -3,10 +3,11 @@
   padding: 0.5rem;
 }
 
-button {
+.boton {
   width: 100%;
   margin-top: 2rem;
-  padding: 0.5rem;
+  padding: 1rem;
+  font-size: 1rem;
 }
 
 .contenedor-padre {
